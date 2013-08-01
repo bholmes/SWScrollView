@@ -1,0 +1,3 @@
+[submodule "Externals/SWScrollView"]
+	path = Externals/SWScrollView
+	url = git@github.com:somtd/SWScrollView.git
