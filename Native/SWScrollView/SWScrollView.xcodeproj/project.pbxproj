@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E512EC17AC3A3A0013BA67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E512EB17AC3A3A0013BA67 /* QuartzCore.framework */; };
 		21EE0FF617AB0BF900AB53E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EE0FF517AB0BF900AB53E1 /* Foundation.framework */; };
 		21EE100617AB0C6200AB53E1 /* SWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE100417AB0C6200AB53E1 /* SWScrollView.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21E512EB17AC3A3A0013BA67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		21EE0FF217AB0BF900AB53E1 /* libSWScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSWScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EE0FF517AB0BF900AB53E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21EE100317AB0C6200AB53E1 /* SWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWScrollView.h; path = ../../Externals/SWScrollView/SWScrollView/Classes/SWScrollView.h; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E512EC17AC3A3A0013BA67 /* QuartzCore.framework in Frameworks */,
 				21EE0FF617AB0BF900AB53E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		21EE0FF417AB0BF900AB53E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21E512EB17AC3A3A0013BA67 /* QuartzCore.framework */,
 				21EE0FF517AB0BF900AB53E1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -222,6 +226,7 @@
 				21EE100217AB0BF900AB53E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
